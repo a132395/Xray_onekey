@@ -1,5 +1,5 @@
 
-## Xray 基于 Nginx 的 VLESS + XTLS 一键安装脚本 <img src="https://raw.githubusercontent.com/wulabing/Xray_onekey/main/image/project_xray.jpg" alt="Project_Xray" width="122" height="30" align="bottom" />
+## Xray 基于 Nginx 的 VLESS + TLS 一键安装脚本 <img src="https://raw.githubusercontent.com/a132395/Xray_onekey/main/image/project_xray.jpg" alt="Project_Xray" width="122" height="30" align="bottom" />
 
 
 > 感谢 JetBrains 提供的非商业开源软件开发授权！
@@ -29,19 +29,19 @@ https://github.com/XTLS/Xray-core/issues/91
 - VLESS + TCP + TLS + Nginx + WebSocket
 
 ```
-wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/nginx_forward/install.sh" && chmod +x install.sh && bash install.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/a132395/Xray_onekey/nginx_forward/install.sh" && chmod +x install.sh && bash install.sh
 ```
 
 ### 安装/更新方式（Xray 前置）
 
 支持配置方式
 
-- VLESS + TCP + XTLS / TLS  + Nginx
+- VLESS + TCP +  TLS  + Nginx
 
-- VLESS + TCP + XTLS / TLS  + Nginx 及 VLESS + TCP + TLS + Nginx + WebSocket 回落并存模式
+- VLESS + TCP +  TLS  + Nginx 及 VLESS + TCP + TLS + Nginx + WebSocket 回落并存模式
 
 ```
-wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/main/install.sh" && chmod +x install.sh && bash install.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/a132395/Xray_onekey/main/install.sh" && chmod +x install.sh && bash install.sh
 ```
 
 
