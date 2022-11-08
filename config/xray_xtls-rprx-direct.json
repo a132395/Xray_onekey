@@ -12,7 +12,7 @@
         "clients": [
           {
             "id": "xx",
-            "flow": "xtls-rprx-direct"
+            "flow": "xtls-rprx-vision"
           }
         ],
         "decryption": "none",
@@ -32,8 +32,8 @@
       "streamSettings": {
         "network": "tcp",
         "security": "xtls",
-        "xtlsSettings": {
-          "minVersion": "1.2",
+        "tlsSettings": {
+          "rejectUnknownSni": true,
           "certificates": [
             {
               "certificateFile": "/usr/local/etc/xray/self_signed_cert.pem",
